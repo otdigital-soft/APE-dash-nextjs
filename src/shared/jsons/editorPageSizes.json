@@ -1,0 +1,347 @@
+[
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-ig-story",
+    "label": "Instagram Story",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 1920,
+      "width": 1080
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-ig-story.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-ig-feed",
+    "label": "Instagram Feed",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 1080,
+      "width": 1080
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-ig-feed.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-ig-portrait",
+    "label": "Instagram Portrait",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 1350,
+      "width": 1080
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-ig-portrait.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-ig-profile",
+    "label": "Instagram Profile",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 320,
+      "width": 320
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-ig-profile.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-fb-photo-post",
+    "label": "Facebook Photo Post",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 630,
+      "width": 1200
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-fb-photo-post.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-fb-profile",
+    "label": "Facebook Profile",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 400,
+      "width": 400
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-fb-profile.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-fb-story",
+    "label": "Facebook Story",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 1920,
+      "width": 1080
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-fb-story.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-tw-header",
+    "label": "Twitter Header",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 500,
+      "width": 1500
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-tw-header.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-tw-in-stream-photo",
+    "label": "Twitter In-Stream Photo",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 1900,
+      "width": 1600
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-tw-in-stream-photo.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-tw-profile",
+    "label": "Twitter Profile",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Pixel",
+      "group": "social",
+      "height": 400,
+      "width": 400
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-tw-profile.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-print-postcard",
+    "label": "Postcard",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Millimeter",
+      "group": "print",
+      "height": 125,
+      "width": 235
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-postcard.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-print-business-card",
+    "label": "Business Card",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Millimeter",
+      "group": "print",
+      "height": 55,
+      "width": 85
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-business-card.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-print-poster",
+    "label": "Poster",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Millimeter",
+      "group": "print",
+      "height": 1400,
+      "width": 1000
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-poster.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-print-flyer",
+    "label": "Flyer",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Millimeter",
+      "group": "print",
+      "height": 150,
+      "width": 130
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-flyer.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  },
+  {
+    "context": {
+      "sourceId": "pageSizes"
+    },
+    "id": "page-sizes-print-brochure",
+    "label": "Brochure",
+    "locale": "en",
+    "meta": {
+      "designUnit": "Millimeter",
+      "group": "print",
+      "height": 148,
+      "width": 315
+    },
+    "size": {
+      "height": 120,
+      "width": 80
+    },
+    "thumbUri": "thumbnail-brochure.svg",
+    "utm": {
+      "medium": "referral",
+      "source": "CE.SDK Demo"
+    }
+  }
+]

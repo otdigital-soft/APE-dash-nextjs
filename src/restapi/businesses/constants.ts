@@ -1,0 +1,5 @@
+export const GET_BUSINESSES = '/businesses'
+export const CREATE_BUSINESS = '/businesses'
+export const GET_BUSINESS = '/businesses/'
+export const UPDATE_BUSINESS = '/businesses/'
+export const DELETE_BUSINESS = '/businesses/'
