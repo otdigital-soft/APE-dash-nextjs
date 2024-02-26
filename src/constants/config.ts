@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: 'HUSL Dashboard',
-  description: 'HUSL Dashboard',
-  url: 'https://my.husl.xyz',
+  name: 'Dashboard',
+  description: 'Dashboard',
+  url: 'https://my.xxx_dashboard.com',
   defaultTimezone: 'America/Los_Angeles'
 }

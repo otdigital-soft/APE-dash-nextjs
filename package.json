@@ -73,7 +73,7 @@
     "typescript": "5.0.4",
     "unocss": "^0.56.1"
   },
-  "name": "husl-app",
+  "name": "Dashboard",
   "private": true,
   "scripts": {
     "build": "run-p build:*",

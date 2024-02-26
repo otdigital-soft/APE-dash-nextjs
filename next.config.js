@@ -23,23 +23,17 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cloudflare-ipfs.com'
-      },
-      {
-        protocol: 'https',
-        hostname: 'web.husl.app'
       }
     ]
   },
   env: {
-    SITE_NAME: 'HUSL',
-    APP_URL: process.env.APP_URL || 'https://my.husl.xyz',
-    BASE_URL: process.env.BASE_URL || (isProd ? 'https://app.husl.xyz' : 'http://localhost:3000'),
+    SITE_NAME: 'Dashboard',
+    APP_URL: process.env.APP_URL,
+    BASE_URL: process.env.BASE_URL,
     API_URL: process.env.API_URL || 'http://localhost:1337',
     CRM_API_URL: process.env.CRM_API_URL || 'http://localhost/crm/api',
     TINYMCE_API_KEY: process.env.TINYMCE_API_KEY,
     NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
-    WEBHUSL_API_MASTER_KEY: process.env.WEBHUSL_API_MASTER_KEY,
-    WEBHUSL_API_URL: process.env.WEBHUSL_API_URL,
     STRIPE_CLIENT_ID: process.env.STRIPE_CLIENT_ID,
     STRIPE_REDIRECT_URI: process.env.STRIPE_REDIRECT_URI,
     STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,

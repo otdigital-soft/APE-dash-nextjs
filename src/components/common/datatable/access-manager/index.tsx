@@ -85,7 +85,7 @@ export const AccessManagerTable: React.FC<AccessManagerTableProps> = ({ social, 
         toast.success('CRM account generated successfully')
         // create access manager account
         await createAccount({
-          websiteKey: 'crm.husl.xyz',
+          websiteKey: 'crm.dashboard.com',
           username: body?.email || '',
           password: body?.password,
           verified: true,
@@ -113,7 +113,7 @@ export const AccessManagerTable: React.FC<AccessManagerTableProps> = ({ social, 
 
   const hasCRMAccount = useMemo(() => {
     if (!accounts?.data) return false
-    return accounts?.data?.find((v) => v.websiteKey === 'crm.husl.xyz')
+    return accounts?.data?.find((v) => v.websiteKey === 'crm.dashboard.com')
   }, [accounts])
 
   const handleQuickCRMLogin = async (row?: Account.Account) => {
@@ -134,8 +134,8 @@ export const AccessManagerTable: React.FC<AccessManagerTableProps> = ({ social, 
         Cell: (c: any) => {
           const row = c?.row?.original
           let url = row?.websiteKey
-          if (url.includes('crm.husl.xyz')) {
-            url = 'crm.husl.xyz' + '?' + row?.username
+          if (url.includes('crm.dashboard.com')) {
+            url = 'crm.dashboard.com' + '?' + row?.username
           }
           return (
             <a href={addHttp(url)} target="_blank" className="text-primary hover:underline">
@@ -165,7 +165,7 @@ export const AccessManagerTable: React.FC<AccessManagerTableProps> = ({ social, 
           const row = c?.row?.original
           return (
             <div className="flex space-x-2 items-center">
-              {row?.websiteKey === 'crm.husl.xyz' && (
+              {row?.websiteKey === 'crm.dashboard.com' && (
                 <button
                   onClick={() => handleQuickCRMLogin(row)}
                   className="w-8 h-8 flex items-center justify-center bg-primary bg-opacity-10 rounded-full shadow text-center text-primary">
